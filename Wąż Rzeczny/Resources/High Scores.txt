@@ -1,0 +1,6 @@
+Regular Snake:
+6
+Snake 2.0:
+51
+Endless Snake:
+1000
