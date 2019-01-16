@@ -10,7 +10,7 @@
 #define GAME_NAME "Waz Rzeczny"
 
 #define Start_Size 3
-#define Snake_Base_Speed 300
+#define Snake_Base_Speed 225
 
 #define SplashState_FontFilepath "Resources/Fonts/Comic Sans.ttf"
 #define ChooseGameState_FontFilepath "Resources/Fonts/Comic Sans.ttf"

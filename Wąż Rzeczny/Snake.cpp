@@ -20,6 +20,10 @@ namespace Brewque
 			rectangle.setPosition(_parts[i].first * Part_Size + _offset, _parts[i].second * Part_Size);
 			_data->window.draw(rectangle);
 		}
+		sf::CircleShape circle(1.0/2.0 * Part_Size);
+		circle.setFillColor(sf::Color::White);
+		circle.setPosition(_parts[_parts.size() - 1].first * Part_Size + _offset, _parts[_parts.size() - 1].second * Part_Size);
+		_data->window.draw(circle);
 	}
 
 	void Snake::Update( )
