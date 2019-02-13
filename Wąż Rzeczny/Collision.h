@@ -7,6 +7,7 @@ namespace Brewque
 {
 	class Collision
 	{
+
 	public:
 		Collision( );
 		
